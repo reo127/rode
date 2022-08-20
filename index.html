@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>RØDE Microphones</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+
+    <!--==========================================================================================-->
+    <!--========================================= Navber =================================================-->
+    <!--==========================================================================================-->
+        <nav class="fixed w-[100%] ">
+            <div class="flex items-center justify-between lg:max-w-[1140px] lg:mx-auto mx-12 ">
+                <div class="flex items-center">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="mx-2">EN</p>
+                    <i class="fa-solid fa-sort-down mb-2"></i>
+                </div>
+                <i class="fa-regular fa-user "></i>
+            </div>
+
+            <hr>
+
+            <header class="p-0 md:p-4 fixed w-full lg:px-96 px-4 ">
+                <div class="flex justify-between ">
+                    <button class="p-4 lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                    <a  href="#" aria-label="Back to homepage" class="flex items-center p-2">
+                        <img class="w-20 sm:w-24" src="assets/logo.svg" alt="">
+                    </a>
+                    <ul class="items-center hidden space-x-3 lg:flex ">
+                        <li >
+                            <a  href="#" class=" px-4 ">PRODUCTS</a>
+                        </li>
+                        <li >
+                            <a  href="#" class=" px-4  ">USER GUIDES</a>
+                        </li>
+                        <li >
+                            <a  href="#" class=" px-4  ">SOLUTIONS</a>
+                        </li>
+                        <li >
+                            <a  href="#" class=" px-4  ">APPAREL</a>
+                        </li>
+                        <li >
+                            <a  href="#" class=" px-4  ">SUPPORT</a>
+                        </li>
+                    </ul>
+                    <div class="items-center flex-shrink-0 lg:flex">
+                        <button class="self-center px-8 py-3 rounded"><img class="w-6 sm:w-7 mt-2 md:mt-0" src="assets/search.png" alt=""></button>
+                    </div>
+                </div>
+            </header>
+        </nav>
+
+
+    
+</body>
+</html>
