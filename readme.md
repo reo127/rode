@@ -8,6 +8,9 @@
 [![ Linkdin ](https://img.shields.io/badge/Reach%20me-Linkdin-blue)](https://www.linkedin.com/in/rohan-malo-1bb400184/)
 
 
+## --> [Live Preview ](https://rodeclonebyrohan.netlify.app/) 
+
+
 
 
 #### Screenshort
